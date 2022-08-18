@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+/*space between*/
+
+.button__content >>> svg {
+  height: 3rem;
+  width: 3rem;
+}
+
+.button.button--primary {
+  background-color: #f9a828;
+  color: #ffffff;
+}
+.button.button--primary:enabled:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: #f9a828;
+  border: #f9a828 solid 3px;
+}
+
+.button--secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: fit-content;
+  transition: all 0.2s;
+  border-style: none;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  width: 15.4375rem;
+  text-align: center;
+  background-color: transparent;
+  color: #ffffff;
+  border: #ffffff solid 4px;
+}
+.button--secondary:enabled:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/*------------------------------------ ProjectCard ------------------------------------*/
+.projectCard__wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 32.1875rem;
+  height: 18.5rem;
+}
+.projectCard__wrapper .wrapper_content {
+  padding-left: 1.8125rem;
+  padding-top: 1.4375rem;
+  padding-right: 1.8125rem;
+  padding-bottom: 1.25rem;
+  text-align: left;
+}
+.project_logo {
+  height: 50px;
+}
+.project_title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.26px;
+  padding-top: 2.6875;
+  padding-bottom: 0.375rem;
+}
+.project_field {
+  color: #c4c4c4;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.94px;
+  padding-bottom: 1.1875rem;
+}
+.project_description {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.5px;
+  color: #000000;
+}

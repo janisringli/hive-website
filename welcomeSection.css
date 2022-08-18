@@ -1,0 +1,72 @@
+.background-container {
+  background-image: url("./assets/img/background/HomeBackground.png");
+  height: 100vh;
+}
+.welcomeSection__wrapper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 4.25rem;
+  padding-top: 3.4375rem;
+}
+.logo {
+  width: auto;
+  height: 91px;
+}
+.introduction {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7.3125rem;
+  text-align: center;
+}
+.introduction__slogan {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  margin-bottom: 0.5rem;
+  line-height: 2.438125rem;
+}
+.introduction__support {
+  font-weight: 800;
+  font-size: 6rem;
+  color: #ffffff;
+  margin-bottom: 4.375rem;
+  line-height: 7.31375rem;
+}
+.introduction__button {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.welcomeSection__scroll {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.82875rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  float: right;
+  color: #ffffff;
+  margin-right: 2rem;
+  position: absolute;
+  top: calc(100vh - 15rem);
+  left: calc(100vw - 7rem);
+  animation: both 3px repeat;
+}
+.scroll__icon {
+  fill: #ffffff;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.icon_list {
+  fill: #ffffff;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  gap: 20px;
+  padding-top: 2rem;
+  position: absolute;
+  top: calc(100vh - 17rem);
+  right: calc(100vw - 7rem);
+}

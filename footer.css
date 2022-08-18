@@ -1,0 +1,65 @@
+.footer__wrapper {
+  background-color: #333333;
+  height: 490px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.wrapper__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.contact {
+  color: #c4c4c4;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+  padding-top: 3.375rem;
+}
+.getInTouch {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.88px;
+  padding-top: 1rem;
+  padding-bottom: 1.5625rem;
+}
+.contact_text {
+  color: #ffffff;
+  width: 37.875rem;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  padding-bottom: 5.0625rem;
+}
+.data__atribute {
+  display: flex;
+  flex-direction: column;
+  gap: 2.9375rem;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+}
+.contact__data {
+  color: #a0a09f;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+.data {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.icon {
+  text-align: center;
+}
+.fa-instagram {
+  font-size: 30px;
+  color: #f9a828;
+}
+a {
+  font-style: none;
+}
