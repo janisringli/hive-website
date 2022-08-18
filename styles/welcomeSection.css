@@ -1,5 +1,5 @@
 .background-container {
-  background-image: url("./assets/img/background/HomeBackground.png");
+  background-image: url("../assets/img/background/HomeBackground.png");
   height: 100vh;
 }
 .welcomeSection__wrapper {
