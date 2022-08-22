@@ -5,12 +5,12 @@
 .welcomeSection__wrapper {
   background-repeat: no-repeat;
   background-size: cover;
-  padding-left: 4.25rem;
   padding-top: 3.4375rem;
 }
 .logo {
   width: auto;
   height: 91px;
+  padding-left: 4.25rem;
 }
 .introduction {
   display: flex;
@@ -51,12 +51,22 @@
   position: absolute;
   top: calc(100vh - 15rem);
   left: calc(100vw - 7rem);
-  animation: both 3px repeat;
+  animation: upnDown 2s infinite;
+}
+@keyframes upnDown {
+  0% {
+    top: calc(100vh - 16rem);
+  }
+  50% {
+    top: calc(100vh - 14rem);
+  }
+  100% {
+    top: calc(100vh - 16rem);
+  }
 }
 .scroll__icon {
   fill: #ffffff;
   height: 30px;
-  margin-right: 10px;
 }
 
 .icon_list {

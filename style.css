@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  scrollbar-color: #f9a828 #f9a828;
 }
 /*space between*/
 
@@ -11,7 +12,6 @@
   height: 3rem;
   width: 3rem;
 }
-
 .button.button--primary {
   background-color: #f9a828;
   color: #ffffff;
