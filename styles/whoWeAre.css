@@ -2,3 +2,41 @@
   height: 748px;
   background-color: #e5e5e5;
 }
+
+.container__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+}
+.hex {
+  position: relative;
+  width: 323px;
+  height: 373px; /* width * 0.866 */
+  background: #333333;
+  box-sizing: border-box;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.hex-background {
+  position: absolute;
+  background: #f4be6a;
+  /*color of the main-background*/
+  top: 10px; /* equal to border thickness */
+  left: 10px; /* equal to border thickness */
+  width: 303px; /* container width - (border thickness * 2) */
+  height: 353px; /* container height - (border thickness * 2) */
+
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hex img {
+  position: absolute;
+  overflow: hidden;
+  top: 3px;
+  left: 3px;
+  width: 297px;
+  height: 347px;
+  object-fit: cover;
+
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
