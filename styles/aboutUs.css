@@ -12,15 +12,18 @@
   text-align: center;
 }
 .about_hive {
-  color: #f9a828;
+  color: var(--honey);
   font-weight: 500;
 }
 .aboutUs {
   text-align: center;
-  color: #f9a828;
+  color: var(--honey);
   background-color: #e5e5e5;
   padding-top: 1rem;
   padding-bottom: 3.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.29em;
 }
 .horizontal-line-aboutUs {
   width: 2px;

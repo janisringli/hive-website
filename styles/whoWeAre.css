@@ -1,5 +1,4 @@
 .whoWeare__container {
-  height: 748px;
   background-color: #e5e5e5;
 }
 
@@ -7,7 +6,51 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 11px;
+  justify-content: center;
+  gap: 218px;
+}
+.container__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.content__hive {
+  color: var(--honey);
+  padding-bottom: 16px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.content__our-team {
+  font-weight: 700;
+  font-size: 40px;
+}
+.content__apprentice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content__department {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.apprentice__name {
+  color: var(--honey);
+  padding-top: 32px;
+  font-weight: 700;
+  font-size: 32px;
+}
+.apprentice__job {
+  font-weight: 500;
+  font-size: 24px;
+  color: #6c6c6c;
+  padding-top: 24px;
+  width: 282px;
+  text-align: center;
 }
 .hex {
   position: relative;
@@ -19,7 +62,7 @@
 }
 .hex-background {
   position: absolute;
-  background: #f4be6a;
+  background: var(--honey);
   /*color of the main-background*/
   top: 10px; /* equal to border thickness */
   left: 10px; /* equal to border thickness */
@@ -39,4 +82,29 @@
   object-fit: cover;
 
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.all-team__container {
+  display: none;
+  overflow: hidden;
+  flex-direction: column;
+  height: auto;
+
+  gap: 30px;
+  transition: all 5s ease;
+}
+.button__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 56px;
+  padding-bottom: 120px;
+}
+.all-team__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 218px;
+  padding-bottom: 40px;
 }

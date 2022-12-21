@@ -7,20 +7,41 @@
   scrollbar-color: #f9a828 #f9a828;
 }
 /*space between*/
-
+:root {
+  --honey: #eb9c3d;
+}
 .button__content >>> svg {
   height: 3rem;
   width: 3rem;
 }
-.button.button--primary {
-  background-color: #f9a828;
-  color: #ffffff;
+.button--primary {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: all 0.2s;
+  border-style: none;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  width: 264px;
+  height: 53px;
+  text-align: center;
+  background-color: transparent;
+  color: var(--honey);
+  border: var(--honey) solid 4px;
 }
-.button.button--primary:enabled:hover {
+.button--primary:hover {
   cursor: pointer;
   background-color: transparent;
-  color: #f9a828;
-  border: #f9a828 solid 3px;
+  color: var(--honey);
+  background-color: var(--honey);
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+.button--primary:not(:hover) {
+  transition: 0.5s ease;
 }
 
 .button--secondary {
@@ -28,23 +49,25 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  width: fit-content;
   transition: all 0.2s;
   border-style: none;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  width: 15.4375rem;
+  width: 264px;
+  height: 67px;
   text-align: center;
   background-color: transparent;
   color: #ffffff;
   border: #ffffff solid 4px;
 }
-.button--secondary:enabled:hover {
+.button--secondary:hover {
   cursor: pointer;
   background-color: #ffffff;
   color: #000000;
 }
-
+.button--secondary:not(:hover) {
+  transition: 0.2s all;
+}
 /*------------------------------------ ProjectCard ------------------------------------*/
 .projectCard__wrapper {
   display: flex;

@@ -10,7 +10,7 @@
 .logo {
   width: auto;
   height: 91px;
-  padding-left: 4.25rem;
+  padding-left: 48px;
 }
 .introduction {
   display: flex;
@@ -50,7 +50,7 @@
   margin-right: 2rem;
   position: absolute;
   top: calc(100vh - 15rem);
-  left: calc(100vw - 7rem);
+  left: calc(100vw - 70px);
   animation: upnDown 2s infinite;
 }
 @keyframes upnDown {
@@ -78,5 +78,5 @@
   padding-top: 2rem;
   position: absolute;
   top: calc(100vh - 17rem);
-  right: calc(100vw - 7rem);
+  right: calc(100vw - 70px);
 }

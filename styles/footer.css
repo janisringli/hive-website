@@ -58,7 +58,7 @@
 }
 .fa-instagram {
   font-size: 30px;
-  color: #f9a828;
+  color: var(--honey);
 }
 a {
   font-style: none;
